@@ -59,7 +59,11 @@ export const analyzeExpensesWithAI = async (fileData, fileType) => {
 
   try {
     const response = await axios.post(API_URL, {
-      contents: [{ parts: parts }]
+      contents: [{ parts: parts }],
+      generationConfig: {
+        responseMimeType: "application/json",
+        temperature: 0.1 
+      }
     });
 
     const aiText = response.data.candidates[0].content.parts[0].text;
@@ -67,7 +71,12 @@ export const analyzeExpensesWithAI = async (fileData, fileType) => {
     return JSON.parse(cleanJsonString);
 
   } catch (error) {
-    console.error("Error talking to AI:", error);
+    // Detect the Google API Rate Limit specifically
+    if (error.response && error.response.status === 429) {
+      console.warn("Gemini API Rate Limit Exceeded!");
+      return "RATE_LIMIT"; 
+    }
+    console.error("Error talking to AI Engine:", error);
     return null; 
   }
 };

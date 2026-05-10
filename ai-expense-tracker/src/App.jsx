@@ -39,11 +39,15 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   const finishAnalysis = (data) => {
-    if (data) {
+    // Custom error handling for API Rate Limits
+    if (data === "RATE_LIMIT") {
+      alert("We are processing a lot of requests right now! Please wait 60 seconds and try again.");
+    } else if (data) {
       setAnalysisData(data);
       setSelectedCategory('All'); 
+    } else {
+      alert("The AI had trouble reading that file. Please ensure it is a clear bank statement.");
     }
-    else alert("The AI had trouble reading that file. Please ensure it is a clear bank statement.");
     setIsAnalyzing(false);
   };
 
