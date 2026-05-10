@@ -182,3 +182,37 @@
     border-right-color: var(--border);
   }
 }
+
+/* --- FEATURE 2: PRINT TO PDF STYLES --- */
+@media print {
+  /* Force background colors to show up in the PDF */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  /* Hide UI elements that shouldn't be in a business report */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Format the page for a clean PDF */
+  body {
+    background: white;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Prevent charts and cards from being cut in half across pages */
+  .card, .metric-card {
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 1px solid #e2e8f0;
+  }
+
+  .container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 10px !important;
+  }
+}

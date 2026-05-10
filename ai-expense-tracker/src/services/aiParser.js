@@ -15,6 +15,8 @@ export const analyzeExpensesWithAI = async (fileData, fileType) => {
     5. Count the Total Number of Transactions (both in and out).
     6. Identify the Largest Single Expense (give me the name and the amount).
     7. Group the spending by Payment Method (e.g., UPI, Bank Transfer, Credit Card, Cash) for a bar chart.
+    8. FORECAST: Based on the spending patterns, predict the estimated total expenses for NEXT month. Provide a realistic number and a 1-sentence reason why.
+    9. TIMELINE: Group the expenses chronologically into 4 weeks (Week 1, Week 2, Week 3, Week 4) to show spending trends over the month.
     
     You MUST respond ONLY with a valid JSON object in this exact format:
     {
@@ -25,12 +27,22 @@ export const analyzeExpensesWithAI = async (fileData, fileType) => {
         "totalTransactions": 45,
         "largestExpense": {"name": "Apple Store", "amount": 1200}
       },
+      "forecast": {
+        "nextMonthEstimate": 3200,
+        "reason": "Because 40% of your spending was on recurring subscriptions, next month will likely remain stable."
+      },
       "recommendation": "A 2 sentence financial tip based on these specific habits.",
       "chartData": [
         {"name": "Category Name", "value": 100}
       ],
       "paymentData": [
         {"name": "UPI", "value": 800}
+      ],
+      "timelineData": [
+        {"week": "Week 1", "amount": 800},
+        {"week": "Week 2", "amount": 1200},
+        {"week": "Week 3", "amount": 400},
+        {"week": "Week 4", "amount": 600}
       ]
     }
   `;
