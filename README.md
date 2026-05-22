@@ -38,7 +38,10 @@ Traditional expense tracking relies heavily on manual data entry and fragmented 
 
 To run this project locally, follow these steps:
 
-### 1. Clone the repository
-```bash
-git clone [https://github.com/your-username/smart-expense-tracker.git](https://github.com/your-username/smart-expense-tracker.git)
-cd smart-expense-tracker
+## 🌐 Live Demo
+View the Live Deployment Here (Replace with your actual Vercel link)
+
+## 👨‍💻 Author
+Sairam Shetti
+
+Focused on bridging the gap between business intelligence and technical product management.
