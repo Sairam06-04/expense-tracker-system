@@ -42,6 +42,6 @@ To run this project locally, follow these steps:
 View the Live Deployment Here https://expense-tracker-system-rose.vercel.app/
 
 ## 👨‍💻 Author
-**Sairam Shetti
+**Sairam Shetti**
 
-Focused on bridging the gap between business intelligence and technical product management.
+* **Focused on bridging the gap between business intelligence and technical product management.**
