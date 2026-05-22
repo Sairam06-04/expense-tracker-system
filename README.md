@@ -34,15 +34,13 @@ Traditional expense tracking relies heavily on manual data entry and fragmented 
 
 ---
 
-## 🧠 Skills & Competencies Gained
+## 🧠 Skills Gained
 
-This project served as a comprehensive bridge between technical development and product analytics, highlighting several core competencies:
-
-* **AI-Assisted Development & Prompt Engineering:** Transparently utilized Google Gemini as an active pair-programming partner to accelerate development, debug complex logic, and implement the core Zero-Shot parsing engine. Demonstrated the ability to write precise, context-aware prompts to force strict JSON outputs from unstructured data.
-* **Full Stack API Integration:** Mastered the asynchronous data flow between a React frontend and secure third-party APIs (Google Generative AI) using Axios, including robust error handling for HTTP 429 (Rate Limit) and 503 (Service Unavailable) status codes.
-* **Data Visualization & Business Intelligence:** Translated raw, unformatted financial transactions into clean, executive-ready visual dashboards using Recharts to highlight operational metrics and cash flow health.
-* **Modern UI/UX Implementation:** Designed a responsive, user-centric interface using CSS Glassmorphism and CSS keyframe animations to create a premium, enterprise-grade feel.
-* **Production Deployment:** Managed version control via Git/GitHub and successfully deployed a production-ready build to Vercel, managing secure environment variables for API keys.
+* **AI Prompt Engineering:** Used Gemini AI to extract and structure raw financial data.
+* **API Integration:** Managed asynchronous data flow and API error handling (429/503).
+* **Business Intelligence:** Built interactive, real-time financial dashboards using Recharts.
+* **UI/UX Design:** Developed a responsive, premium Glassmorphism interface.
+* **Cloud Deployment:** Handled version control (Git) and live hosting (Vercel).
   
 ---
 
