@@ -7,6 +7,7 @@ An AI-powered financial intelligence dashboard that transforms raw, unstructured
 ## 🏢 Internship Context
 This project was developed as the capstone project during a 15-week Full Stack Web Development (MERN) internship at **SuprMentr Technologies Pvt Ltd**, Bengaluru. 
 * **Academic Institution:** Dayananda Sagar Academy of Technology & Management (DSATM)
+---
 
 ## 🚀 Overview
 
