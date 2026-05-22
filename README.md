@@ -2,6 +2,12 @@
 
 An AI-powered financial intelligence dashboard that transforms raw, unstructured bank statements into actionable business insights and predictive forecasts. 
 
+> 🤖 **Note:** This application was developed in collaboration with Google Gemini AI to accelerate the coding process and implement intelligent data parsing.
+
+## 🏢 Internship Context
+This project was developed as the capstone project during a 15-week Full Stack Web Development (MERN) internship at **SuprMentr Technologies Pvt Ltd**, Bengaluru. 
+* **Academic Institution:** Dayananda Sagar Academy of Technology & Management (DSATM)
+
 ## 🚀 Overview
 
 Traditional expense tracking relies heavily on manual data entry and fragmented formats (PDFs, CSVs, Excel). The **Smart Expense Tracker** eliminates this friction by leveraging Large Language Models (LLMs) to automatically parse, categorize, and visualize financial data. Designed with a premium Glassmorphism UI, it provides real-time visibility into cash flow, budget health, and predictive spending trends.
