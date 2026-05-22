@@ -39,9 +39,9 @@ Traditional expense tracking relies heavily on manual data entry and fragmented 
 To run this project locally, follow these steps:
 
 ## 🌐 Live Demo
-View the Live Deployment Here (Replace with your actual Vercel link)
+View the Live Deployment Here https://expense-tracker-system-rose.vercel.app/
 
 ## 👨‍💻 Author
-Sairam Shetti
+**Sairam Shetti
 
 Focused on bridging the gap between business intelligence and technical product management.
